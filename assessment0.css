@@ -1,0 +1,28 @@
+body {
+    background-color: #f3bcff;
+    color: #c00000;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+button {
+    padding: 5px 20px;
+    background-color: #a6ffd2;
+    color: lightslategray;
+    border: none;
+    border-radius: 50px;
+}
+button:hover {
+    background-color: rgb(255, 174, 0);
+    color: rgb(212, 0, 255);
+}
+input {
+    height: 25px;
+    border-style:groove;
+    border-radius: 5px;
+    color: rgb(199, 0, 0);
+    background-color: rgb(36, 23, 23);
+}
+input:focus {
+    border-color: lime;
+}
